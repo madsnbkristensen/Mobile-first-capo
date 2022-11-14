@@ -62,12 +62,16 @@ header {
 .some-logo {
   height: 50px;
 }
+.tekst-section-1 {
+  padding-top: 200px;
+}
 .tekst h1 {
   font-size: 70px;
 }
 .tekst p {
   font-size: 30px;
 }
+
 hr {
   width: 70%;
   margin: auto;
@@ -84,6 +88,7 @@ hr {
   scroll-snap-align: start;
   background-repeat: no-repeat;
   background-position: center;
+  background-position-y: 70px;
   width: auto;
   background-size: 100%;
   background-attachment: fixed;
@@ -116,5 +121,28 @@ hr {
   background-image: url(/img/event-desktop.webp);
 }
 .section-5 {
-  background-image: url(/img/manifest-1-desktop.webp);
+  background-image: url(/img/manifest-1-desktop.webp),
+    url(/img/manifest-2-desktop.webp);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 50%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
