@@ -19,15 +19,14 @@ header {
   align-items: center;
 }
 .navbar {
-  height: 100%;
+  display: flex;
+  align-items: center;
 }
-
 .navbar ul li {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
   position: relative;
-  height: 100%;
   display: flex;
   align-items: center;
   font-family: "Oswald", sans-serif;
@@ -35,33 +34,33 @@ header {
 .navbar ul li a {
   color: black;
 }
-.navbar ul li::after {
+.hovereffekt li::after {
   content: "";
   height: 3px;
   width: 0%;
-  background: #f65b13;
+  background: #da4703;
   position: absolute;
   left: 0;
   bottom: -10px;
   transition: 0.5s;
 }
 
-.navbar ul li:hover::after {
+.hovereffekt li:hover::after {
   width: 100%;
 }
 
 /*ændre height på border når vi ændre navbar*/
 .some-container {
-  height: 204px;
+  height: 154px;
   border-left: 2px solid black;
   display: flex;
 }
 .logo-wrap img {
-  height: 200px;
+  height: 150px;
 }
 
 .some-logo {
-  height: 100px;
+  height: 50px;
 }
 .tekst h1 {
   font-size: 70px;
