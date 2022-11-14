@@ -94,6 +94,15 @@ hr {
   font-family: "Oswald", sans-serif;
   text-align: center;
 }
+.booking-knap button {
+  color: orange;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid grey;
+  width: 140px;
+  height: 30px;
+  cursor: pointer;
+}
 .section-1 {
   background-image: url(/img/vin-og-mad-desktop.webp);
 }
