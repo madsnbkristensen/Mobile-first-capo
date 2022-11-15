@@ -62,18 +62,47 @@ header {
 .some-logo {
   height: 50px;
 }
+.bookbord {
+  color: #d26800;
+  border-radius: 16px;
+  border: 3px solid rgb(156, 156, 156);
+  padding: 5px 40px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.booking-knap {
+  padding-top: 30px;
+}
+.tekst {
+  width: 60%;
+}
 .tekst-section-1 {
   padding-top: 200px;
+}
+.pad-forside {
+  padding: 40px 0;
 }
 .tekst h1 {
   font-size: 70px;
 }
+.tekst h3 {
+  font-size: 70px;
+  color: #d26800;
+  font-family: "Kanit", sans-serif;
+}
 .tekst p {
   font-size: 30px;
+  font-family: "Oswald", sans-serif;
 }
-
-hr {
-  width: 70%;
+.tekst h4 {
+  font-size: 40px;
+}
+.tekst hr {
+  width: 15%;
+  margin: auto;
+}
+.tekst-section-1 hr {
+  width: 20%;
   margin: auto;
 }
 
@@ -99,15 +128,7 @@ hr {
   font-family: "Oswald", sans-serif;
   text-align: center;
 }
-.booking-knap button {
-  color: orange;
-  background-color: transparent;
-  border-radius: 15px;
-  border: 2px solid grey;
-  width: 140px;
-  height: 30px;
-  cursor: pointer;
-}
+
 .section-1 {
   background-image: url(/img/vin-og-mad-desktop.webp);
 }
@@ -145,4 +166,67 @@ hr {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/*Naturvin Side*/
+.navbar-natur ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.navbar-natur {
+  display: flex;
+  align-items: center;
+}
+.navbar-natur ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+}
+.navbar-natur ul li a {
+  color: black;
+}
+.hovereffekt-natur li::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #da4703;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.hovereffekt-natur li:hover::after {
+  width: 100%;
+}
+
+/*ændre height på border når vi ændre navbar*/
+.some-container-natur {
+  height: 154px;
+  border-left: 2px solid black;
+  display: flex;
+}
+.logo-wrap-natur img {
+  height: 150px;
+}
+
+.some-logo-natur {
+  height: 50px;
+}
+
+.naturvin-billede {
+  background-image: url(/img/vin\ baggrund.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: 100%;
+  background-position-y: 10px;
+}
+
+.infographic-natur {
+  background-image: url();
 }
