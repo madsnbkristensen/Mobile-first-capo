@@ -4,43 +4,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/e5d2e9687a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e5d2e9687a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
     <title>Naturvin</title>
   </head>
   <body>
     <main class="site-wrapper">
       <header>
-          <section class="logo-wrap">
-              <a href="index.html"><img src="/img/logo.webp" alt="logo" /></a>
-            </section>
-          <nav class="navbar">
-            <ul class="hovereffekt">
-              <li><a href="https://book.easytablebooking.com/book/?id=6ed41&lang=auto" target="_blank">BOOKING</a></li>
-              <li><a href="index.html#vin-rum">VIN RUM</a></li>
-              <li><a href="index.html#mad">MAD</a></li>
-              <li><a href="index.html#event">EVENTS</a></li>
-              <li><a href="index.html#manifest">MANIFEST</a></li>
-            </ul>
-            <div class="some-container">
-              <ul>
-              <li><a href="https://www.instagram.com/capo.aarhus/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-              <li><a href="https://www.facebook.com/people/CAPO-Aarhus/100079025130357/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-             </div>
-            </ul>
-          </nav>
-        </header>
-
-        <section class="naturvin-billede">
-          <h1 class="naturvin-h1">Naturvin</h1>
-          <div class="arrow"></div>
+        <section class="logo-wrap">
+          <a href="#forside"><img src="/img/logo.webp" alt="capologo" /></a>
         </section>
+        <nav class="navbar">
+          <ul class="hovereffekt nav-menu">
+            <li class="nav-item">
+              <a
+                href="https://book.easytablebooking.com/book/?id=6ed41&lang=auto"
+                target="_blank"
+                >BOOKING</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vin-rum">VIN RUM</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#mad">MAD</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#event">EVENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#manifest">MANIFEST</a>
+            </li>
+          </ul>
+          <div class="some-container">
+            <ul>
+              <li nav-item>
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/capo.aarhus/"
+                  aria-label="Se Capo's Insagram her"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li nav-item>
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/people/CAPO-Aarhus/100079025130357/"
+                  aria-label="Se Capo's Facebook her"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </header>
 
-        <section class="infographic-natur">
-        </section>
+      <section class="naturvin-billede section">
+        <h1 class="naturvin-h1">Naturvin</h1>
+        <div class="arrow"></div>
+      </section>
+
+      <section class="infographic-natur"></section>
     </main>
+    <script src="/js/burgerscript.js"></script>
   </body>
 </html>

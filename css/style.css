@@ -434,3 +434,11 @@ header {
     padding: 7px 0;
   }
 }
+
+@media only screen and (max-width: 875px) {
+  .infographic-natur {
+    background-image: url(/img/infographic-capo-mobil.webp);
+    background-position-y: 100px;
+    background-size: 100%;
+  }
+}
