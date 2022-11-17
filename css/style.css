@@ -439,7 +439,7 @@ header {
     line-height: 2.5rem;
   }
 }
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 375px) {
   .tekst-section-1 h1 {
     font-size: 40px;
   }
