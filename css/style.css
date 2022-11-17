@@ -174,7 +174,7 @@ header {
 }
 
 .section-1 {
-  background-image: url(/img//capo-mad-og-vinbar.webp);
+  background-image: url(/img/capo-mad-og-vinbar.webp);
 }
 .section-2 {
   background-image: url(/img/vinrum-desk.webp);
@@ -437,6 +437,9 @@ header {
   .tekst-section-5 p {
     padding: 10px 0;
     line-height: 2.5rem;
+  }
+  .site-wrapper {
+    scroll-snap-type: none;
   }
 }
 @media only screen and (max-width: 375px) {
