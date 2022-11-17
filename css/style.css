@@ -174,16 +174,16 @@ header {
 }
 
 .section-1 {
-  background-image: url(/img/test.webp);
+  background-image: url(/img//capo-mad-og-vinbar.webp);
 }
 .section-2 {
-  background-image: url(/img/vinrum-desktop.webp);
+  background-image: url(/img/vinrum-desk.webp);
 }
 .section-3 {
-  background-image: url(/img/mad-desktop.webp);
+  background-image: url(/img/mad-desk.webp);
 }
 .section-4 {
-  background-image: url(/img/event-desktop.webp);
+  background-image: url(/img/event-desk.webp);
 }
 .section-5 {
   background-image: url(/img/manifest-1-desktop.webp),
