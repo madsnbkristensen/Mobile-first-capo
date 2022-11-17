@@ -236,7 +236,6 @@ header {
 }
 
 .infographic-natur {
-  background-image: url(/img/infographic-ny.webp);
   background-position: center;
   background-repeat: no-repeat;
   scroll-snap-align: start;
@@ -245,8 +244,37 @@ header {
   height: 100vh;
   background-position-y: 150px;
   background-size: 85%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
-
+.infographic-natur-mobil {
+  display: none;
+  background-image: url(/img/vin-infografik.webp);
+  background-size: 85%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+  background-attachment: fixed;
+  background-position-y: 150px;
+}
+.infographic-natur img {
+  height: 90%;
+}
+.info-container {
+  background: rgb(121, 154, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 154, 85, 1) 50%,
+    rgba(83, 32, 32, 1) 50%
+  );
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
 .site-wrapper-natur {
   overflow-y: auto;
   height: 100vh;
@@ -437,8 +465,30 @@ header {
 
 @media only screen and (max-width: 875px) {
   .infographic-natur {
-    background-image: url(/img/infographic-capo-mobil.webp);
     background-position-y: 100px;
     background-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .info-container img {
+    height: 85%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .info-container img {
+    display: none;
+  }
+  .info-container {
+    background-image: url(/img/naturvin-infografik.webp);
+    background-size: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #649d4f;
+  }
+  .infographic-natur-mobil {
+    display: block;
+    background-size: 85%;
+    background-color: #5f1a19;
   }
 }
