@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /
-domain navn --- 
+Allow: /
+
 Sitemap: http://www.example.com/sitemap.xml
