@@ -164,8 +164,8 @@ header {
   background-position: center;
   background-position-y: 70px;
   width: auto;
-  background-size: 100%;
   background-attachment: fixed;
+  background-size: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
