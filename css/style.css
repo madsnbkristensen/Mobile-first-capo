@@ -59,7 +59,7 @@ header {
   width: 100%;
 }
 
-/*ændre height på border når vi ændre navbar*/
+/* Husk at ændre height på border når vi ændre navbar*/
 .some-container {
   height: 154px;
   border-left: 0px solid black;
