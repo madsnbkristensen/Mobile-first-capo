@@ -155,6 +155,7 @@ header {
   height: 100vh;
   width: 100%;
   scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch
 }
 .section {
   height: 100vh;
@@ -171,6 +172,7 @@ header {
   color: white;
   font-family: "Oswald", sans-serif;
   text-align: center;
+  overflow: visible;
 }
 
 .section-1 {
@@ -437,9 +439,6 @@ header {
   .tekst-section-5 p {
     padding: 10px 0;
     line-height: 2.5rem;
-  }
-  .site-wrapper {
-    scroll-snap-type: none;
   }
 }
 @media only screen and (max-width: 375px) {
